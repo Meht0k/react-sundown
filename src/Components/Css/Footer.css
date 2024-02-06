@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-5 {
+    height: 100vh;
+    width: 100%;
+    background: #0b0500;
+    padding: 0 3vw;
+    display: flex;
+    align-items: flex-end;
+}
+
+.footer {
+    height: 80vh;
+    width: 100%;
+}
+
+.footer-top {
+    height: 30vh;
+    width: 100%;
+}
+
+.footer-bottom {
+    height: 40vh;
+    width: 100%;
+    border-bottom: .1px solid grey;
+    overflow: hidden;
+}
+
+.footer-bottom h1 {
+    line-height: 18vw;
+    font-size: 21vw;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.fb-bot {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fb-bot p {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.fb-bot a {
+    position: relative;
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.ft-left {
+    height: 30vh;
+    width: 100%;
+
+}
+
+.f-list li {
+    list-style: none;
+    padding: .2rem 0;
+}
+
+.f-list li a {
+    color: white;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.ft-right {
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.ft-right p{
+    width: 50%;
+    color: white;
+    font-size: 1.8rem;
+}
+
+.form{
+    width: 50%;
+    padding: 2rem 0;
+}
+.ft-right input{
+    background: transparent;
+    border: none;
+    border-bottom: .1px solid white;
+    color: white;
+    outline: none;
+    width: 90%;
+    padding: .3rem 0;
+}
+.ft-right button{
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    margin-left: -30px;
+    cursor: pointer;
+}
