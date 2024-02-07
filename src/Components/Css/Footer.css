@@ -115,3 +115,11 @@
     margin-left: -30px;
     cursor: pointer;
 }
+
+
+::selection{
+  background-color:#FE330A;
+  color: #000;
+}
+
+
