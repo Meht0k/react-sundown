@@ -110,7 +110,7 @@
 
 
 .creation {
-    min-height: 100vh;
+    height: auto;
     width: 100%;
     background: #EFEAE3;
     padding: 0 3vw;
@@ -158,7 +158,7 @@
 }
 
 .creation2 {
-    min-height: 100vh;
+    height:auto;
     width: 100%;
     background: #EFEAE3;
     padding: 0 3vw;
@@ -206,7 +206,7 @@
 }
 
 .creation3 {
-    min-height: 100vh;
+    height: auto;
     width: 100%;
     background: #EFEAE3;
     padding: 0 3vw;
