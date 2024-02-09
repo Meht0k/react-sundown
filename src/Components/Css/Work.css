@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    height: auto;
+    width: 100%;
+    background: #EFEAE3;
+    padding: 3vw;
+    position: relative;
+}
+
+.work-glow {
+    height: 35vw;
+    width: 35vw;
+    background: #FE330A;
+    position: sticky;
+    top: 10vh;
+    left: 35%;
+    transform: translateX(-50%);
+    z-index: 0;
+    border-radius: 50%;
+    filter: blur(20px);
+    animation: skew 3s ease alternate-reverse infinite ;
+}
+@keyframes skew{
+    from{
+        transform: skew(5deg);
+    }
+    to{
+        transform: skew(-5deg);
+    }
+}
+
+
+.work-header:not(h5){
+    position: sticky;
+    top: 2vh;
+    z-index: 100;
+}
+
+
+.main h5{
+    font-size: 8vw;
+}
+
+.stick-nav{
+    background: #efeae3b0;
+    backdrop-filter: blur(5px);
+    width: 25vw;
+    border: .1px solid #00000088;
+    border-radius: 50px;
+    position: sticky;
+    top: 5vh;
+}
+.stick-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+.stick-list li{
+    list-style: none;
+}
+.stick-list li a{
+    color: #000;
+}
+
+.work-card{
+    position: relative;
+    z-index: 1;
+    top: -50vh;
+    /* background: red; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10rem;
+}
+.card1{
+    height: 60vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.card1 img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.card-body1{
+    width: 100%;
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.card-body1 h4{
+  color: #fff;
+  font-size: 2rem;
+}
+.card-body1 h6{
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+
+
+
+@media (max-width: 576px) {
+    
+.main h5{
+    font-size: 30vw;
+    text-align: center;
+    padding-top: 3rem;
+}
+ .work-card{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    top: -25vh;
+ }   
+ .card:nth-child(odd){
+    height: 40vh;
+ }
+ .stick-nav{
+    width: 100%;
+ }
+ 
+.work-glow {
+    height: 70vw;
+    width: 70vw;
+    background: #FE330A;
+    position: sticky;
+    top: 10vh;
+    left: 35%;
+    transform: translateX(-50%);
+    z-index: 0;
+    border-radius: 50%;
+    filter: blur(20px);
+    animation: skew 3s ease alternate-reverse infinite ;
+}
+}
